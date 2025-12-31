@@ -19,7 +19,7 @@ function App() {
       setError("");
 
       const res = await axios.post(
-        "http://localhost:3000/api/url/shorten",
+        "https://shortkaro-backend-1.onrender.com/api/url/shorten",
         { originalUrl }
       );
 
